@@ -5,7 +5,11 @@ function Resume() {
   return (
     <section className="my-5">
       <h1>Resume</h1>
-      <a className="resume-download" href={AlexWeghorstResume}>
+      <a
+        className="resume-download"
+        download="AlexWeghorstResume"
+        href={AlexWeghorstResume}
+      >
         <button>Download Resume</button>
       </a>
       <h3 className="text-center">MERN Stack Skills</h3>

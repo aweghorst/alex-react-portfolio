@@ -78,10 +78,6 @@ h6 {
   font-size: 1rem;
 }
 
-nav a:visited {
-  color: var(--ranchorange);
-}
-
 nav {
   width: 100%;
   justify-content: center;
@@ -1491,4 +1487,5 @@ footer {
 
 .navActive {
   font-size: 48px;
+  color: var(--ranchorange);
 }
