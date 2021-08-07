@@ -11,6 +11,9 @@
   --quatrinary: #cadbda;
   --light: #e1f5f4;
   --dark: #6c7575;
+  --ranchorange: #b65901;
+  --ranchwhite: #fefefe;
+  --ranchsky: #0f1d22;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
@@ -21,7 +24,6 @@
 }
 
 * {
-  font-size: 30px;
   text-shadow: -1px 1px 1px #000, 1px 1px 1px #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
 }
@@ -79,16 +81,6 @@ h5 {
 
 h6 {
   font-size: 1rem;
-}
-
-p {
-  font-size: .7rem;
-  margin-top: 0;
-}
-
-a {
-  color: var(--dark);
-  text-decoration: none;
 }
 
 a:visited {
@@ -1274,7 +1266,7 @@ nav a {
 /*Start of Custom CSS*/
 
 html {
-  background-color: var(--blue);
+  background-color: #161415;
 }
 
 body {
@@ -1290,26 +1282,38 @@ code {
     monospace;
 }
 
+header {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(./assets/cover/cover.png) no-repeat center center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
 .header-text {
+  color: var(--ranchwhite);
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+}
+.nav-text {
   color: white;
   text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
   font-family: "Permanent Marker", cursive;
+  font-size: 2.2rem;
+  justify-content: space-between;
 }
 
-.hero {
-  width: 100%;
-  height: 200px;
-  background-image: url(./assets/cover/cover.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 3px solid var(--orange);
-  box-shadow: 0 3px 10px rgb(255 200 140 / 0.7);
-}
 
 .profile-img {
-  width: 10%;
   border: 3px solid var(--brown);
   box-shadow: 0 3px 10px rgb(255 200 140 / 0.7);
   margin-top: 3px;
@@ -1324,7 +1328,7 @@ ul {
 }
 
 .about-text {
-  font-size: 8px;
+  font-size: 15px;
   width: 70%;
   text-align: left;
   margin-left: auto;
@@ -1332,15 +1336,20 @@ ul {
   margin-top: 25px;
 }
 
-nav #aboutbtn:hover {
-  color: var(--blue);
+a {
+  font-size: 2 px;
 }
-nav #portfoliobtn:hover {
-  color: var(--orange);
+
+.navActive {
+  color: var(--ranchorange)
 }
-nav #contactbtn:hover {
+.category-btn:hover {
   color: var(--yellow);
 }
-nav #resumebtn:hover {
-  color: var(--green);
+
+.welcome-text {
+  margin-top: 5%;
+  font-size: 100px;
 }
+
+
