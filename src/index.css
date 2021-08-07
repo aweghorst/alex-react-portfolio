@@ -1423,3 +1423,24 @@ a .fa:hover {
 a .fa{
 font-size:30px;
 }
+
+.skill-row {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.skill {
+  border: 2px solid var(--ranchorange);
+  margin: 10px;
+  height: 80px;
+  vertical-align: middle;
+  display:table-cell
+}
+
+.skill:hover {
+  border: 2px solid var(--blue);
+}
+
+.resume-download {
+  margin-left: 20px;
+}

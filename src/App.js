@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
+import Resume from "./components/Resume"
 
 
 
@@ -13,10 +14,7 @@ function App() {
   return (
     <section>
       <main>
-        <Header/>
-        <About />
-        <Contact/>
-        <Footer />
+        <Resume />
       </main>
     </section>
   );

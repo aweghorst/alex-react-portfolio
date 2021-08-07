@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <div className="row banner">
         <div className="banner-text">
           <h1>I am Alex Weghorst.</h1>

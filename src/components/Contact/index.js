@@ -42,7 +42,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag" className="header-text text-center">
+      <h1 id="contact" className="header-text text-center">
         Contact me
       </h1>
       <div className="flex-row">
