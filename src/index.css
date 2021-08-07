@@ -127,17 +127,18 @@ nav a {
 /* CARDS */
 .card {
   margin: 10px 5px 20px 5px;
-  border: 3px solid var(--dark);
+  border: 3px solid var(--ranchorange);
   border-radius: var(--border-radius);
-  background-color: var(--light);
+  background-color: var(--ranchwhite);
   color: var(--dark);
   width: 200px;
 }
 
 .card-header {
-  color: var(--secondary);
+  font-weight: bolder;
+  color: var(--ranchorange);
   margin: 0;
-  background-color: var(--dark);
+  background-color: var(--ranchsky);
   padding: 0.625rem;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
@@ -1304,15 +1305,15 @@ code {
 }
 
 header {
-  position: relative;
-  height: 800px;
-  min-height: 500px;
+  position: sticky;
+  height: 15vh;
   width: 100%;
   background: #161415 url(./assets/cover/cover.png) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  z-index: 999;
 }
 
 .header-text {
@@ -1322,6 +1323,29 @@ header {
   font-family: "Permanent Marker", cursive;
   font-size: 30px;
 }
+
+.home {
+  position: static;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(./assets/cover/home.jpg) no-repeat center center;
+  background-position-y: unset;
+  top: -15vh;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.home-text {
+  color: var(--ranchwhite);
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+}
+
 .nav-text {
   color: white;
   text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
@@ -1335,6 +1359,7 @@ header {
   border: 3px solid var(--brown);
   box-shadow: 0 3px 10px rgb(255 200 140 / 0.7);
   margin-top: 3px;
+  max-width: 200px;
 }
 
 ul {
@@ -1346,7 +1371,7 @@ ul {
 }
 
 .about-text {
-  font-size: 15px;
+  font-size: 28px;
   width: 70%;
   text-align: left;
   margin-left: auto;
@@ -1354,13 +1379,6 @@ ul {
   margin-top: 25px;
 }
 
-a {
-  font-size: 2 px;
-}
-
-.navActive {
-  color: var(--ranchorange);
-}
 .category-btn:hover {
   color: var(--yellow);
 }
@@ -1454,4 +1472,25 @@ a .fa {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+main {
+  min-height: calc(100vh - 70px);
+}
+.content {
+  min-height: calc(100vh - 70px);
+  margin-bottom: -8vh;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  height: 8vh;
+  width: 100%;
+  clear: both;
+  padding-bottom: 80px;
+}
+
+.navActive {
+  font-size: 48px;
 }

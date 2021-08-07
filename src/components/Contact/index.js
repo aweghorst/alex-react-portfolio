@@ -42,7 +42,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 id="contact" className="header-text text-center">
+      <h1 className="header-text text-center">
         Contact me
       </h1>
       <div className="flex-row">
@@ -102,21 +102,21 @@ function ContactForm() {
               rel="noreferrer"
               href="https://www.linkedin.com/in/alex-weghorst/"
             >
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://github.com/aweghorst"
             >
-              <i class="fa fa-github"></i>
+              <i className="fa fa-github"></i>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://www.instagram.com/aweghorst/"
             >
-              <i class="fa fa-instagram"></i>
+              <i className="fa fa-instagram"></i>
             </a>
           </div>
         </div>

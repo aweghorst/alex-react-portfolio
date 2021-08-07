@@ -2,11 +2,10 @@ import React from "react";
 
 function Home() {
   return (
-    <section id="home">
+    <section className="home">
       <div className="row banner">
         <div className="banner-text">
-          <h1>I am Alex Weghorst.</h1>
-          <ul className="social"></ul>
+          <div className="header-text col-12 justify-center welcome-text">I am Alex Weghorst</div>
           
         </div>
       </div>

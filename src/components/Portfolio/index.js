@@ -10,9 +10,9 @@ function Projects() {
   return (
     <div>
       <div className=" flex align-center vh">
-        <div className="flex-row project-row col-12 justify-center text-center">
+        <div className="flex-row project-row col-12 justify-space-around text-center">
           {/*Pour Decisions*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://pour-decisions.herokuapp.com/"
@@ -50,7 +50,7 @@ function Projects() {
             </div>
           </div>
           {/*EventBus*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://rarchita12.github.io/EventBus/"
@@ -87,8 +87,10 @@ function Projects() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex-row project-row col-12 justify-space-around text-center">
           {/*Food Festival*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://aweghorst.github.io/food-festival/index.html"
@@ -125,10 +127,8 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex-row project-row col-12 justify-center text-center">
           {/*TaskMaster Pro*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://aweghorst.github.io/taskmaster-pro/"
@@ -165,8 +165,10 @@ function Projects() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex-row project-row col-12 justify-space-around text-center">
           {/*Weather Buddy*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://aweghorst.github.io/WeatherBuddy/"
@@ -204,7 +206,7 @@ function Projects() {
             </div>
           </div>
           {/*Day Planner Pro*/}
-          <div className="col-3 project card">
+          <div className="col-5 project card">
             <div className="card-body">
               <a
                 href="https://aweghorst.github.io/day-planner-pro/"

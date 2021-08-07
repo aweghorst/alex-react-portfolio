@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <footer className="footer-container text mb-4">
       <hr></hr>
       <div className="flex-row justify-space-around mt-4">
         <a
@@ -10,20 +10,20 @@ function Footer() {
           rel="noreferrer"
           href="https://www.linkedin.com/in/alex-weghorst/"
         >
-          <i class="fa fa-linkedin"></i>
+          <i className="fa fa-linkedin"></i>
         </a>
         <a target="_blank" rel="noreferrer" href="https://github.com/aweghorst">
-          <i class="fa fa-github"></i>
+          <i className="fa fa-github"></i>
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.instagram.com/aweghorst/"
         >
-          <i class="fa fa-instagram"></i>
+          <i className="fa fa-instagram"></i>
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
 

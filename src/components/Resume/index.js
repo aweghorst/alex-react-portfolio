@@ -4,7 +4,7 @@ import AlexWeghorstResume from "../../assets/resume/AlexWeghorstResume.pdf";
 function Resume() {
   return (
     <section className="my-5">
-      <h1 id="resume">Resume</h1>
+      <h1>Resume</h1>
       <a className="resume-download" href={AlexWeghorstResume}>
         <button>Download Resume</button>
       </a>
