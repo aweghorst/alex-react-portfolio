@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alex-react-portfolio/static/css/main.fedf8a82.chunk.css",
+    "main.css": "/alex-react-portfolio/static/css/main.9410bcce.chunk.css",
     "main.js": "/alex-react-portfolio/static/js/main.33508496.chunk.js",
     "main.js.map": "/alex-react-portfolio/static/js/main.33508496.chunk.js.map",
     "runtime-main.js": "/alex-react-portfolio/static/js/runtime-main.86b0bb54.js",
@@ -10,7 +10,7 @@
     "static/js/3.741129ac.chunk.js": "/alex-react-portfolio/static/js/3.741129ac.chunk.js",
     "static/js/3.741129ac.chunk.js.map": "/alex-react-portfolio/static/js/3.741129ac.chunk.js.map",
     "index.html": "/alex-react-portfolio/index.html",
-    "static/css/main.fedf8a82.chunk.css.map": "/alex-react-portfolio/static/css/main.fedf8a82.chunk.css.map",
+    "static/css/main.9410bcce.chunk.css.map": "/alex-react-portfolio/static/css/main.9410bcce.chunk.css.map",
     "static/js/2.c21382ec.chunk.js.LICENSE.txt": "/alex-react-portfolio/static/js/2.c21382ec.chunk.js.LICENSE.txt",
     "static/media/AlexWeghorstResume.37d633e8.pdf": "/alex-react-portfolio/static/media/AlexWeghorstResume.37d633e8.pdf",
     "static/media/alex.ad0cc731.jpg": "/alex-react-portfolio/static/media/alex.ad0cc731.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.86b0bb54.js",
     "static/js/2.c21382ec.chunk.js",
-    "static/css/main.fedf8a82.chunk.css",
+    "static/css/main.9410bcce.chunk.css",
     "static/js/main.33508496.chunk.js"
   ]
 }
