@@ -16,6 +16,7 @@ function App() {
         <Header/>
         <About />
         <Contact/>
+        <Footer />
       </main>
     </section>
   );
