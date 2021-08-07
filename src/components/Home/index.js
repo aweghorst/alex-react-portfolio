@@ -7,6 +7,7 @@ function Home() {
         <div className="banner-text">
           <h1>I am Alex Weghorst.</h1>
           <ul className="social"></ul>
+          
         </div>
       </div>
     </section>
