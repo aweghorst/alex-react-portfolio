@@ -11,7 +11,7 @@
   --quatrinary: #cadbda;
   --light: #e1f5f4;
   --dark: #6c7575;
-  --ranchorange: #b65901;
+  --ranchorange: #c27d3d;
   --ranchwhite: #fefefe;
   --ranchsky: #0f1d22;
   --error: rgb(228, 46, 1);
@@ -156,6 +156,31 @@ nav a {
 .form-input,
 .form-textarea {
   display: block;
+  width: 100%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  width: 100%;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 0.25rem;
+  width: 100%;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+form{
+  width: 100%;
 }
 
 .form-label {
@@ -1352,4 +1377,50 @@ a {
   font-size: 100px;
 }
 
+.form-box {
+    margin: 30px auto auto;
+    padding: 10px 20px;
+    max-width: 50%;
+   border: 4px solid var(--ranchwhite);
+   border-radius: 20px;
+}
 
+form {
+  width: 100%;
+}
+
+input {
+  background-color: var(--ranchorange);
+  text-shadow: none;
+  outline: 2px solid var(--yellow)
+}
+
+textarea {
+  background-color: var(--ranchorange);
+  text-shadow: none;
+  outline: 2px solid var(--yellow)
+
+}
+
+button {
+  margin: 0;
+  font-family: "Poiret One";
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  color: black;
+  text-shadow: none;
+  font-size:22px;
+}
+
+.error-text {
+  color: rgb(235, 87, 87);
+}
+
+
+a .fa {
+  color: var(--ranchwhite);
+  }
+
+  a .fa:hover {
+    color: var(--ranchorange);
+    }
