@@ -5,7 +5,7 @@
 
   ## Description:
 
-  This is a professional portfolio that I created using React.
+  This is a professional portfolio that I created using React.  It lists 6 of my previous projects with links to the deployed applications and the corresponding GitHub Repositories.  There is also a link to my resume and a contact page to email me with questions.
   
   ## Deployed Application
   
@@ -51,4 +51,3 @@
   ## Questions:
 
   If you have any questions about the repo, open an issue or contact me directly at aweghorst@yahoo.com.  You can find more of my work on my github: [aweghorst](http://www.github.com/aweghorst)
-  ![portfolio](https://user-images.githubusercontent.com/80176140/128644372-8f7a4168-88b7-4588-89a1-74a34c0591cc.png)
