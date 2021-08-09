@@ -1444,12 +1444,14 @@ a .fa {
   border: 2px solid var(--ranchorange);
   margin: 10px;
   height: 80px;
-  vertical-align: middle;
-  display: table-cell;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .skill:hover {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--yellow);
+  background-color: var(--blue)
 }
 
 .resume-download {
@@ -1488,4 +1490,14 @@ footer {
 .navActive {
   font-size: 48px;
   color: var(--ranchorange);
+}
+
+.emailLink {
+  color: white;
+  text-decoration: none;
+}
+
+.emailLink:hover{
+  color: var(--ranchorange);
+  text-decoration: none;
 }

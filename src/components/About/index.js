@@ -10,7 +10,7 @@ function About() {
           alt="headshot of alex"
           className="col-3 profile-img"
         />
-        <h1 className="col-9 text-center  header-text">
+        <h1 className="col-9 text-center header-text">
           Alex Weghorst
         </h1>
       </div>

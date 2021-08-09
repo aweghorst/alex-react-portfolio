@@ -41,9 +41,9 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section className="">
       <h1 className="header-text text-center">
-        Contact me
+        Contact Me
       </h1>
       <div className="flex-row">
         <div className="form-box col-6">
@@ -95,7 +95,8 @@ function ContactForm() {
         <div className="contact-box col-3 text-center form-box">
           <h4>Contact Me Directly</h4>
           <p>(512) 914-2389</p>
-          <p>alex@weghorst.com</p>
+          <a className="emailLink" href="mailto://alex@weghorst.com">alex@weghorst.com</a>
+          
           <div className="flex-row justify-space-around">
             <a
               target="_blank"
