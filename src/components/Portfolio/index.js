@@ -5,12 +5,51 @@ import foodfestival from "../../assets/portfolio/foodfestival.jpg";
 import taskmasterpro from "../../assets/portfolio/taskmasterpro.png";
 import weatherbuddy from "../../assets/portfolio/weatherbuddy.png";
 import dayplannerpro from "../../assets/portfolio/dayplannerpro.png";
+import bikesleuth from "../../assets/portfolio/bikesleuth.jpg";
 
 function Projects() {
   return (
     <div>
       <div className=" flex align-center vh">
         <div className="flex-row project-row col-12 justify-space-around text-center">
+          {/*BikeSleuth*/}
+          <div className="col-5 project card">
+            <div className="card-body">
+              <a
+                href="https://bikesleuth.herokuapp.com/#/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  src={bikesleuth}
+                  className="project-img"
+                  alt="texas wine glass"
+                />
+              </a>
+              <div className="card-header">BikeSleuth</div>
+              <div className="project-description">
+                {" "}
+                Quickly post your bike details in the event it goes missing:
+                Created using the MERN stack and Tailwinds CSS.
+              </div>
+              <div className="project-link flex-row justify-space-between">
+                <a
+                  href="https://bikesleuth.herokuapp.com/#/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deployed Link
+                </a>
+                <a
+                  href="https://github.com/Chrisdocs/FindMyBike"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
           {/*Pour Decisions*/}
           <div className="col-5 project card">
             <div className="card-body">
@@ -66,7 +105,7 @@ function Projects() {
               <div className="card-header">EventBus</div>
               <div className="project-description">
                 {" "}
-                Get driving directions to TicketMaster events: created using
+                Get driving directions to TicketMaster events: Created using
                 Foundation, Moment, and third-party APIs{" "}
               </div>
               <div className="project-link flex-row justify-space-between">
